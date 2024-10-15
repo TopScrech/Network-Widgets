@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F343169B2CBE8A64007BCE68 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F343169A2CBE8A64007BCE68 /* ScrechKit */; };
+		F343169D2CBE8B8C007BCE68 /* Network Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F343169C2CBE8B8C007BCE68 /* Network Speed.swift */; };
+		F34316A12CBE8C3A007BCE68 /* Network VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34316A02CBE8C3A007BCE68 /* Network VM.swift */; };
 		F35F7F832CBE80BD009F6EEF /* App Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F7F7F2CBE80BD009F6EEF /* App Container.swift */; };
 		F35F7F842CBE80BD009F6EEF /* Network Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F7F812CBE80BD009F6EEF /* Network Widgets.swift */; };
 		F35F7F862CBE80BD009F6EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F7F7E2CBE80BD009F6EEF /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F343169C2CBE8B8C007BCE68 /* Network Speed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Speed.swift"; sourceTree = "<group>"; };
+		F34316A02CBE8C3A007BCE68 /* Network VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network VM.swift"; sourceTree = "<group>"; };
 		F35F7F6A2CBE80B5009F6EEF /* Network Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Widgets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35F7F7E2CBE80BD009F6EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F35F7F7F2CBE80BD009F6EEF /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				F35F7F8A2CBE8199009F6EEF /* Network Widgets.plist */,
 				F35F7F802CBE80BD009F6EEF /* Network Widgets.entitlements */,
 				F35F7F872CBE8150009F6EEF /* Home View.swift */,
+				F34316A02CBE8C3A007BCE68 /* Network VM.swift */,
+				F343169C2CBE8B8C007BCE68 /* Network Speed.swift */,
 			);
 			path = "Network Widgets";
 			sourceTree = "<group>";
@@ -149,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F343169D2CBE8B8C007BCE68 /* Network Speed.swift in Sources */,
 				F35F7F882CBE8150009F6EEF /* Home View.swift in Sources */,
 				F35F7F832CBE80BD009F6EEF /* App Container.swift in Sources */,
+				F34316A12CBE8C3A007BCE68 /* Network VM.swift in Sources */,
 				F35F7F842CBE80BD009F6EEF /* Network Widgets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
