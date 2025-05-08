@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		F35F7F842CBE80BD009F6EEF /* Network Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F7F812CBE80BD009F6EEF /* Network Widgets.swift */; };
 		F35F7F862CBE80BD009F6EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F7F7E2CBE80BD009F6EEF /* Assets.xcassets */; };
 		F35F7F882CBE8150009F6EEF /* Home View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F7F872CBE8150009F6EEF /* Home View.swift */; };
+		F3A0BB5B2DCCC9C4007B303B /* Network Widgets.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3A0BB5A2DCCC9C4007B303B /* Network Widgets.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,17 +26,15 @@
 		F35F7F802CBE80BD009F6EEF /* Network Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Network Widgets.entitlements"; sourceTree = "<group>"; };
 		F35F7F812CBE80BD009F6EEF /* Network Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Widgets.swift"; sourceTree = "<group>"; };
 		F35F7F872CBE8150009F6EEF /* Home View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home View.swift"; sourceTree = "<group>"; };
-		F35F7F8A2CBE8199009F6EEF /* Network Widgets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Network Widgets.plist"; sourceTree = SOURCE_ROOT; };
+		F3A0BB5A2DCCC9C4007B303B /* Network Widgets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Network Widgets.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F35F7F672CBE80B5009F6EEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F343169B2CBE8A64007BCE68 /* ScrechKit in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -61,9 +60,9 @@
 			children = (
 				F35F7F812CBE80BD009F6EEF /* Network Widgets.swift */,
 				F35F7F892CBE816F009F6EEF /* Nav */,
-				F35F7F7E2CBE80BD009F6EEF /* Assets.xcassets */,
-				F35F7F8A2CBE8199009F6EEF /* Network Widgets.plist */,
+				F3A0BB5A2DCCC9C4007B303B /* Network Widgets.plist */,
 				F35F7F802CBE80BD009F6EEF /* Network Widgets.entitlements */,
+				F35F7F7E2CBE80BD009F6EEF /* Assets.xcassets */,
 				F35F7F872CBE8150009F6EEF /* Home View.swift */,
 				F34316A02CBE8C3A007BCE68 /* Network VM.swift */,
 				F343169C2CBE8B8C007BCE68 /* Network Speed.swift */,
@@ -92,8 +91,6 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = "Network Widgets";
 			packageProductDependencies = (
 				F343169A2CBE8A64007BCE68 /* ScrechKit */,
@@ -110,7 +107,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					F35F7F692CBE80B5009F6EEF = {
 						CreatedOnToolsVersion = 16.0;
@@ -129,7 +126,7 @@
 			packageReferences = (
 				F34316992CBE8A64007BCE68 /* XCRemoteSwiftPackageReference "ScrechKit" */,
 			);
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = F35F7F6B2CBE80B5009F6EEF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,18 +139,16 @@
 /* Begin PBXResourcesBuildPhase section */
 		F35F7F682CBE80B5009F6EEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
+				F3A0BB5B2DCCC9C4007B303B /* Network Widgets.plist in Resources */,
 				F35F7F862CBE80BD009F6EEF /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F35F7F662CBE80B5009F6EEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F343169D2CBE8B8C007BCE68 /* Network Speed.swift in Sources */,
 				F35F7F882CBE8150009F6EEF /* Home View.swift in Sources */,
@@ -161,12 +156,11 @@
 				F34316A12CBE8C3A007BCE68 /* Network VM.swift in Sources */,
 				F35F7F842CBE80BD009F6EEF /* Network Widgets.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F35F7F772CBE80B6009F6EEF /* Debug */ = {
+		F35F7F772CBE80B6009F6EEF /* Debug configuration for PBXProject "Network Widgets" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -200,7 +194,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -227,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		F35F7F782CBE80B6009F6EEF /* Release */ = {
+		F35F7F782CBE80B6009F6EEF /* Release configuration for PBXProject "Network Widgets" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +257,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -280,7 +278,7 @@
 			};
 			name = Release;
 		};
-		F35F7F7A2CBE80B6009F6EEF /* Debug */ = {
+		F35F7F7A2CBE80B6009F6EEF /* Debug configuration for PBXNativeTarget "Network Widgets" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,7 +286,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Network Widgets/Network Widgets.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -320,7 +318,7 @@
 			};
 			name = Debug;
 		};
-		F35F7F7B2CBE80B6009F6EEF /* Release */ = {
+		F35F7F7B2CBE80B6009F6EEF /* Release configuration for PBXNativeTarget "Network Widgets" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -328,7 +326,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Network Widgets/Network Widgets.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -366,19 +364,17 @@
 		F35F7F652CBE80B5009F6EEF /* Build configuration list for PBXProject "Network Widgets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F35F7F772CBE80B6009F6EEF /* Debug */,
-				F35F7F782CBE80B6009F6EEF /* Release */,
+				F35F7F772CBE80B6009F6EEF /* Debug configuration for PBXProject "Network Widgets" */,
+				F35F7F782CBE80B6009F6EEF /* Release configuration for PBXProject "Network Widgets" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F35F7F792CBE80B6009F6EEF /* Build configuration list for PBXNativeTarget "Network Widgets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F35F7F7A2CBE80B6009F6EEF /* Debug */,
-				F35F7F7B2CBE80B6009F6EEF /* Release */,
+				F35F7F7A2CBE80B6009F6EEF /* Debug configuration for PBXNativeTarget "Network Widgets" */,
+				F35F7F7B2CBE80B6009F6EEF /* Release configuration for PBXNativeTarget "Network Widgets" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
