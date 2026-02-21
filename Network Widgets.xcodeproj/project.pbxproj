@@ -8,26 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F343169B2CBE8A64007BCE68 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F343169A2CBE8A64007BCE68 /* ScrechKit */; };
-		F343169D2CBE8B8C007BCE68 /* Network Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F343169C2CBE8B8C007BCE68 /* Network Speed.swift */; };
-		F34316A12CBE8C3A007BCE68 /* Network VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34316A02CBE8C3A007BCE68 /* Network VM.swift */; };
-		F35F7F832CBE80BD009F6EEF /* App Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F7F7F2CBE80BD009F6EEF /* App Container.swift */; };
-		F35F7F842CBE80BD009F6EEF /* Network Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F7F812CBE80BD009F6EEF /* Network Widgets.swift */; };
-		F35F7F862CBE80BD009F6EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F7F7E2CBE80BD009F6EEF /* Assets.xcassets */; };
-		F35F7F882CBE8150009F6EEF /* Home View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F7F872CBE8150009F6EEF /* Home View.swift */; };
-		F3A0BB5B2DCCC9C4007B303B /* Network Widgets.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3A0BB5A2DCCC9C4007B303B /* Network Widgets.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F343169C2CBE8B8C007BCE68 /* Network Speed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Speed.swift"; sourceTree = "<group>"; };
-		F34316A02CBE8C3A007BCE68 /* Network VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network VM.swift"; sourceTree = "<group>"; };
 		F35F7F6A2CBE80B5009F6EEF /* Network Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Widgets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F35F7F7E2CBE80BD009F6EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F35F7F7F2CBE80BD009F6EEF /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
-		F35F7F802CBE80BD009F6EEF /* Network Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Network Widgets.entitlements"; sourceTree = "<group>"; };
-		F35F7F812CBE80BD009F6EEF /* Network Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Widgets.swift"; sourceTree = "<group>"; };
-		F35F7F872CBE8150009F6EEF /* Home View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home View.swift"; sourceTree = "<group>"; };
-		F3A0BB5A2DCCC9C4007B303B /* Network Widgets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Network Widgets.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F3B1B1D42F49BD8700AA5AD3 /* Network Widgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Network Widgets";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F35F7F672CBE80B5009F6EEF /* Frameworks */ = {
@@ -42,7 +35,7 @@
 		F35F7F612CBE80B5009F6EEF = {
 			isa = PBXGroup;
 			children = (
-				F35F7F822CBE80BD009F6EEF /* Network Widgets */,
+				F3B1B1D42F49BD8700AA5AD3 /* Network Widgets */,
 				F35F7F6B2CBE80B5009F6EEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,29 +46,6 @@
 				F35F7F6A2CBE80B5009F6EEF /* Network Widgets.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F35F7F822CBE80BD009F6EEF /* Network Widgets */ = {
-			isa = PBXGroup;
-			children = (
-				F35F7F812CBE80BD009F6EEF /* Network Widgets.swift */,
-				F35F7F892CBE816F009F6EEF /* Nav */,
-				F3A0BB5A2DCCC9C4007B303B /* Network Widgets.plist */,
-				F35F7F802CBE80BD009F6EEF /* Network Widgets.entitlements */,
-				F35F7F7E2CBE80BD009F6EEF /* Assets.xcassets */,
-				F35F7F872CBE8150009F6EEF /* Home View.swift */,
-				F34316A02CBE8C3A007BCE68 /* Network VM.swift */,
-				F343169C2CBE8B8C007BCE68 /* Network Speed.swift */,
-			);
-			path = "Network Widgets";
-			sourceTree = "<group>";
-		};
-		F35F7F892CBE816F009F6EEF /* Nav */ = {
-			isa = PBXGroup;
-			children = (
-				F35F7F7F2CBE80BD009F6EEF /* App Container.swift */,
-			);
-			path = Nav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +60,9 @@
 				F35F7F682CBE80B5009F6EEF /* Resources */,
 			);
 			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				F3B1B1D42F49BD8700AA5AD3 /* Network Widgets */,
 			);
 			name = "Network Widgets";
 			packageProductDependencies = (
@@ -107,7 +80,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					F35F7F692CBE80B5009F6EEF = {
 						CreatedOnToolsVersion = 16.0;
@@ -140,8 +113,6 @@
 		F35F7F682CBE80B5009F6EEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				F3A0BB5B2DCCC9C4007B303B /* Network Widgets.plist in Resources */,
-				F35F7F862CBE80BD009F6EEF /* Assets.xcassets in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -150,11 +121,6 @@
 		F35F7F662CBE80B5009F6EEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				F343169D2CBE8B8C007BCE68 /* Network Speed.swift in Sources */,
-				F35F7F882CBE8150009F6EEF /* Home View.swift in Sources */,
-				F35F7F832CBE80BD009F6EEF /* App Container.swift in Sources */,
-				F34316A12CBE8C3A007BCE68 /* Network VM.swift in Sources */,
-				F35F7F842CBE80BD009F6EEF /* Network Widgets.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
@@ -218,6 +184,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -274,6 +241,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -287,8 +255,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Network Widgets.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Network Widgets";
@@ -327,8 +297,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Network Widgets.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Network Widgets";

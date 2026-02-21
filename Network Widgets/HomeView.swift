@@ -8,7 +8,6 @@ struct HomeView: View {
     var body: some View {
         List {
             Text(vm.ingoing)
-            
             Text(vm.outgoing)
         }
         .monospacedDigit()
